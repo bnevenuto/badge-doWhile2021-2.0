@@ -92,6 +92,39 @@ ul {
     justify-content: center;
 }
 
+@media (min-width: 720px) {
+    /* estilos versão tablet */
+    main {
+        background: url(./images/background-desktop.png) no-repeat center/cover;
+    }
+    
+    .avatar {
+        margin: 16.7rem auto 0;
+    }
+}
+
+@media (min-width: 1735px) {
+    /* estilos versão desktop */
+    main {
+        background: url(./images/background-desktop.png) no-repeat center/cover;
+    }
+    
+    .avatar {
+        margin: 16.5rem auto 0;
+    }
+}
+
+@media (min-width: 1762px) {
+    /* estilos versão desktop */
+    main {
+        background: url(./images/background-desktop.png) no-repeat center/cover;
+    }
+    
+    .avatar {
+        margin: 16.3rem auto 0;
+    }
+}
+
 @keyframes loading {
     0% {
         transform: rotate(0);
@@ -105,20 +138,3 @@ ul {
 #spinning {
     animation: loading 10s linear infinite;
 }
-
-@media (min-width: 720px) {
-	/* estilos versão tablet */
-    main {
-        background: url(./images/background-desktop.png) no-repeat center/cover;
-    }
-
-    .avatar {
-        margin: 13rem auto 0;
-    }
-}
-
-@media (min-width: 960px) {
-	/* estilos versão desktop */
-}
-
-
